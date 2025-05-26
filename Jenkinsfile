@@ -16,15 +16,22 @@ pipeline {
         stage('Tag & Release') {
             steps {
                 withCredentials([string(credentialsId: 'GITHUB_TOKEN', variable: 'GITHUB_TOKEN')]) {
-                    sh """
-                        git config user.name "jenkins"
-                        git config user.email "jenkins@example.com"
-                        git tag v${BUILD_NUMBER}
-                        git push origin v${BUILD_NUMBER}
-                        curl -H "Authorization: token \$GITHUB_TOKEN" \
-                             -d '{\"tag_name\": \"v${BUILD_NUMBER}\", \"name\": \"Release v${BUILD_NUMBER}\"}' \
-                             https://api.github.com/repos/msjackiebrown/bulk-github-issue-creator/releases
-                    """
+                    script {
+                        // Extract Maven version from pom.xml
+                        def mvnVersion = sh(
+                            script: "mvn help:evaluate -Dexpression=project.version -q -DforceStdout",
+                            returnStdout: true
+                        ).trim()
+                        sh """
+                            git config user.name "jenkins"
+                            git config user.email "jenkins@example.com"
+                            git tag v${mvnVersion}
+                            git push origin v${mvnVersion}
+                            curl -H "Authorization: token \$GITHUB_TOKEN" \
+                                 -d '{\"tag_name\": \"v${mvnVersion}\", \"name\": \"Release v${mvnVersion}\"}' \
+                                 https://api.github.com/repos/msjackiebrown/bulk-github-issue-creator/releases
+                        """
+                    }
                 }
             }
         }

@@ -37,19 +37,21 @@ pipeline {
                         """
                         // Create the release and upload the JAR
                         def response = sh(
-                            script: """curl -H "Authorization: token ${GITHUB_TOKEN}" \
-                                -d '{\"tag_name\": \"v${mvnVersion}\", \"name\": \"Release v${mvnVersion}\"}' \
+                            script: """curl -s -H "Authorization: token \$GITHUB_TOKEN" \
+                                -d '{"tag_name": "v${mvnVersion}", "name": "Release v${mvnVersion}"}' \
                                 https://api.github.com/repos/msjackiebrown/bulk-github-issue-creator/releases""",
                             returnStdout: true
                         ).trim()
-                        def uploadUrl = new groovy.json.JsonSlurperClassic().parseText(response).upload_url
-                        uploadUrl = uploadUrl.replace("{?name,label}", "?name=bulk-github-issue-creator-${mvnVersion}.jar")
-                        sh """
-                            curl -H "Authorization: token ${GITHUB_TOKEN}" \
+                        def uploadUrl = sh(
+                            script: """echo '${response}' | jq -r .upload_url | sed 's/{?name,label}/?name=bulk-github-issue-creator-${mvnVersion}.jar/'""",
+                            returnStdout: true
+                        ).trim()
+                        sh '''
+                            curl -H "Authorization: token $GITHUB_TOKEN" \
                                  -H "Content-Type: application/java-archive" \
                                  --data-binary @target/bulk-github-issue-creator-${mvnVersion}.jar \
                                  "${uploadUrl}"
-                        """
+                        '''
                     }
                 }
             }

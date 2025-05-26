@@ -32,6 +32,8 @@ pipeline {
                         sh """
                             git config user.name "jenkins"
                             git config user.email "jenkins@example.com"
+                            git tag -d v${mvnVersion} || true
+                            git push --delete origin v${mvnVersion} || true
                             git tag v${mvnVersion}
                             git push origin v${mvnVersion}
                         """

@@ -29,6 +29,8 @@ pipeline {
                             script: "${mvnHome}/bin/mvn help:evaluate -Dexpression=project.version -q -DforceStdout",
                             returnStdout: true
                         ).trim()
+                        echo "mvnVersion: ${mvnVersion}"
+                        sh "ls -l target"
                         sh """
                             git config user.name "jenkins"
                             git config user.email "jenkins@example.com"
@@ -48,12 +50,15 @@ pipeline {
                             script: """echo '${response}' | jq -r .upload_url | sed 's/{?name,label}/?name=bulk-github-issue-creator-${mvnVersion}.jar/'""",
                             returnStdout: true
                         ).trim()
-                        sh '''
-                            curl -H "Authorization: token $GITHUB_TOKEN" \
+                        def artifactId = "bulk-github-issue-creator" // change if needed
+                        def artifactName = "${artifactId}-${mvnVersion}.jar"
+                        def artifactPath = "target/${artifactName}"
+                        sh """
+                            curl -H "Authorization: token \$GITHUB_TOKEN" \
                                  -H "Content-Type: application/java-archive" \
-                                 --data-binary @target/bulk-github-issue-creator-${mvnVersion}.jar \
+                                 --data-binary @${artifactPath} \
                                  "${uploadUrl}"
-                        '''
+                        """
                     }
                 }
             }

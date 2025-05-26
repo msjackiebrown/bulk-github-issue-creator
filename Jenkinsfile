@@ -17,9 +17,9 @@ pipeline {
             steps {
                 withCredentials([string(credentialsId: 'GITHUB_TOKEN', variable: 'GITHUB_TOKEN')]) {
                     script {
-                        // Extract Maven version from pom.xml
+                        def mvnHome = tool name: 'Maven 3', type: 'maven'
                         def mvnVersion = sh(
-                            script: "mvn help:evaluate -Dexpression=project.version -q -DforceStdout",
+                            script: "${mvnHome}/bin/mvn help:evaluate -Dexpression=project.version -q -DforceStdout",
                             returnStdout: true
                         ).trim()
                         sh """

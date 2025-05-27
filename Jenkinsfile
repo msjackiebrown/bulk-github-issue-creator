@@ -46,13 +46,13 @@ pipeline {
                                 https://api.github.com/repos/msjackiebrown/bulk-github-issue-creator/releases""",
                             returnStdout: true
                         ).trim()
+                        def artifactId = "bulk-github-issue-creator" // change if needed
+                        def artifactName = "bulk-github-issue-creator-${mvnVersion}-jar-with-dependencies.jar"
+                        def artifactPath = "target/${artifactName}"
                         def uploadUrl = sh(
                             script: """echo '${response}' | jq -r .upload_url | sed 's/{?name,label}/?name=${artifactName}/'""",
                             returnStdout: true
                         ).trim()
-                        def artifactId = "bulk-github-issue-creator" // change if needed
-                        def artifactName = "bulk-github-issue-creator-${mvnVersion}-jar-with-dependencies.jar"
-                        def artifactPath = "target/${artifactName}"
                         sh """
                             curl -H "Authorization: token \$GITHUB_TOKEN" \
                                  -H "Content-Type: application/java-archive" \

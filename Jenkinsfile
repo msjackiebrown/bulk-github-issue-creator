@@ -63,5 +63,15 @@ pipeline {
                 }
             }
         }
+        stage('Deploy to GitHub Packages') {
+            steps {
+                withCredentials([usernamePassword(credentialsId: 'GITHUB_PACKAGES', usernameVariable: 'GITHUB_USER', passwordVariable: 'GITHUB_TOKEN')]) {
+                    script {
+                        def mvnHome = tool name: 'Default', type: 'maven'
+                        sh "${mvnHome}/bin/mvn deploy -DskipTests=true -DaltDeploymentRepository=github::default::https://maven.pkg.github.com/msjackiebrown/bulk-github-issue-creator -Dgithub.username=$GITHUB_USER -Dgithub.token=$GITHUB_TOKEN"
+                    }
+                }
+            }
+        }
     }
 }

@@ -47,11 +47,11 @@ pipeline {
                             returnStdout: true
                         ).trim()
                         def uploadUrl = sh(
-                            script: """echo '${response}' | jq -r .upload_url | sed 's/{?name,label}/?name=bulk-github-issue-creator-${mvnVersion}.jar/'""",
+                            script: """echo '${response}' | jq -r .upload_url | sed 's/{?name,label}/?name=${artifactName}/'""",
                             returnStdout: true
                         ).trim()
                         def artifactId = "bulk-github-issue-creator" // change if needed
-                        def artifactName = "${artifactId}-${mvnVersion}.jar"
+                        def artifactName = "bulk-github-issue-creator-${mvnVersion}-jar-with-dependencies.jar"
                         def artifactPath = "target/${artifactName}"
                         sh """
                             curl -H "Authorization: token \$GITHUB_TOKEN" \

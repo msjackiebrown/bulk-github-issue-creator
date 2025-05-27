@@ -1,0 +1,206 @@
+2025-05-27T07:49:13.527-04:00  INFO 33252 --- [main] c.github.issuetools.IssueWebApplication  : Starting IssueWebApplication using Java 24 with PID 33252 (C:\Users\msjac\GitHub\bulk-github-issue-creator\target\classes started by msjac in C:\Users\msjac\GitHub\bulk-github-issue-creator)
+2025-05-27T07:49:13.528-04:00  INFO 33252 --- [main] c.github.issuetools.IssueWebApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-05-27T07:49:14.088-04:00  INFO 33252 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-27T07:49:14.106-04:00  INFO 33252 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-27T07:49:14.106-04:00  INFO 33252 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-05-27T07:49:14.146-04:00  INFO 33252 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-27T07:49:14.146-04:00  INFO 33252 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 583 ms
+2025-05-27T07:49:14.372-04:00  INFO 33252 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-05-27T07:49:14.377-04:00  INFO 33252 --- [main] c.github.issuetools.IssueWebApplication  : Started IssueWebApplication in 1.147 seconds (process running for 1.375)
+2025-05-27T07:49:25.199-04:00  INFO 33252 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-27T07:49:25.200-04:00  INFO 33252 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-27T07:49:25.201-04:00  INFO 33252 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-27T07:58:26.349-04:00  INFO 14476 --- [main] c.github.issuetools.IssueWebApplication  : Starting IssueWebApplication using Java 24 with PID 14476 (C:\Users\msjac\GitHub\bulk-github-issue-creator\target\classes started by msjac in C:\Users\msjac\GitHub\bulk-github-issue-creator)
+2025-05-27T07:58:26.350-04:00  INFO 14476 --- [main] c.github.issuetools.IssueWebApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-05-27T07:58:26.940-04:00  INFO 14476 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-27T07:58:26.950-04:00  INFO 14476 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-27T07:58:26.951-04:00  INFO 14476 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-05-27T07:58:26.993-04:00  INFO 14476 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-27T07:58:26.993-04:00  INFO 14476 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 613 ms
+2025-05-27T07:58:27.219-04:00  INFO 14476 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-05-27T07:58:27.224-04:00  INFO 14476 --- [main] c.github.issuetools.IssueWebApplication  : Started IssueWebApplication in 1.145 seconds (process running for 1.357)
+2025-05-27T07:58:33.884-04:00  INFO 14476 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-27T07:58:33.885-04:00  INFO 14476 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-27T07:58:33.886-04:00  INFO 14476 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-27T08:01:04.559-04:00  INFO 6984 --- [main] c.github.issuetools.IssueWebApplication  : Starting IssueWebApplication using Java 24 with PID 6984 (C:\Users\msjac\GitHub\bulk-github-issue-creator\target\classes started by msjac in C:\Users\msjac\GitHub\bulk-github-issue-creator)
+2025-05-27T08:01:04.561-04:00  INFO 6984 --- [main] c.github.issuetools.IssueWebApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-05-27T08:01:05.146-04:00  INFO 6984 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-27T08:01:05.155-04:00  INFO 6984 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-27T08:01:05.155-04:00  INFO 6984 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-05-27T08:01:05.196-04:00  INFO 6984 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-27T08:01:05.197-04:00  INFO 6984 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 604 ms
+2025-05-27T08:01:05.428-04:00  INFO 6984 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-05-27T08:01:05.433-04:00  INFO 6984 --- [main] c.github.issuetools.IssueWebApplication  : Started IssueWebApplication in 1.145 seconds (process running for 1.355)
+2025-05-27T08:01:14.370-04:00  INFO 6984 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-27T08:01:14.370-04:00  INFO 6984 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-27T08:01:14.371-04:00  INFO 6984 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-27T08:05:13.641-04:00  INFO 45232 --- [main] c.github.issuetools.IssueWebApplication  : Starting IssueWebApplication using Java 24 with PID 45232 (C:\Users\msjac\GitHub\bulk-github-issue-creator\target\classes started by msjac in c:\Users\msjac\GitHub\bulk-github-issue-creator)
+2025-05-27T08:05:13.643-04:00  INFO 45232 --- [main] c.github.issuetools.IssueWebApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-05-27T08:05:14.433-04:00  INFO 45232 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-27T08:05:14.517-04:00  INFO 45232 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-27T08:05:14.517-04:00  INFO 45232 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-05-27T08:05:14.552-04:00  INFO 45232 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-27T08:05:14.552-04:00  INFO 45232 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 868 ms
+2025-05-27T08:05:14.858-04:00  INFO 45232 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-05-27T08:05:14.866-04:00  INFO 45232 --- [main] c.github.issuetools.IssueWebApplication  : Started IssueWebApplication in 1.56 seconds (process running for 2.051)
+2025-05-27T08:05:24.929-04:00  INFO 45232 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-27T08:05:24.929-04:00  INFO 45232 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-27T08:05:24.930-04:00  INFO 45232 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-27T08:10:18.786-04:00  INFO 48576 --- [main] c.github.issuetools.IssueWebApplication  : Starting IssueWebApplication using Java 24 with PID 48576 (C:\Users\msjac\GitHub\bulk-github-issue-creator\target\bulk-github-issue-creator-2.0.0.jar started by msjac in C:\Users\msjac\GitHub\bulk-github-issue-creator)
+2025-05-27T08:10:18.788-04:00  INFO 48576 --- [main] c.github.issuetools.IssueWebApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-05-27T08:10:19.616-04:00  INFO 48576 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-27T08:10:19.626-04:00  INFO 48576 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-27T08:10:19.626-04:00  INFO 48576 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-05-27T08:10:19.655-04:00  INFO 48576 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-27T08:10:19.656-04:00  INFO 48576 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 807 ms
+2025-05-27T08:10:19.975-04:00  WARN 48576 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-05-27T08:10:20.004-04:00  INFO 48576 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-27T08:10:20.031-04:00 ERROR 48576 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-05-27T08:11:11.960-04:00  INFO 14096 --- [main] c.github.issuetools.IssueWebApplication  : Starting IssueWebApplication using Java 24 with PID 14096 (C:\Users\msjac\GitHub\bulk-github-issue-creator\target\bulk-github-issue-creator-2.0.0.jar started by msjac in C:\Users\msjac\GitHub\bulk-github-issue-creator)
+2025-05-27T08:11:11.962-04:00  INFO 14096 --- [main] c.github.issuetools.IssueWebApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-05-27T08:11:12.808-04:00  INFO 14096 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-27T08:11:12.821-04:00  INFO 14096 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-27T08:11:12.822-04:00  INFO 14096 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-05-27T08:11:12.863-04:00  INFO 14096 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-27T08:11:12.864-04:00  INFO 14096 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 844 ms
+2025-05-27T08:11:13.186-04:00  WARN 14096 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-05-27T08:11:13.215-04:00  INFO 14096 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-27T08:11:13.241-04:00 ERROR 14096 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-05-27T08:12:06.051-04:00  INFO 30496 --- [main] c.github.issuetools.IssueWebApplication  : Starting IssueWebApplication using Java 24 with PID 30496 (C:\Users\msjac\GitHub\bulk-github-issue-creator\target\bulk-github-issue-creator-2.0.0.jar started by msjac in C:\Users\msjac\GitHub\bulk-github-issue-creator)
+2025-05-27T08:12:06.054-04:00  INFO 30496 --- [main] c.github.issuetools.IssueWebApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-05-27T08:12:06.865-04:00  INFO 30496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-27T08:12:06.877-04:00  INFO 30496 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-27T08:12:06.877-04:00  INFO 30496 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-05-27T08:12:06.905-04:00  INFO 30496 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-27T08:12:06.905-04:00  INFO 30496 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 790 ms
+2025-05-27T08:12:07.242-04:00  INFO 30496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-05-27T08:12:07.256-04:00  INFO 30496 --- [main] c.github.issuetools.IssueWebApplication  : Started IssueWebApplication in 1.644 seconds (process running for 2.014)
+2025-05-27T08:12:14.010-04:00  INFO 30496 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-27T08:12:14.010-04:00  INFO 30496 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-27T08:12:14.011-04:00  INFO 30496 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-27T08:16:03.523-04:00  INFO 46792 --- [main] c.github.issuetools.IssueWebApplication  : Starting IssueWebApplication using Java 24 with PID 46792 (C:\Users\msjac\GitHub\bulk-github-issue-creator\target\bulk-github-issue-creator-2.0.0.jar started by msjac in C:\Users\msjac\GitHub\bulk-github-issue-creator)
+2025-05-27T08:16:03.525-04:00  INFO 46792 --- [main] c.github.issuetools.IssueWebApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-05-27T08:16:04.338-04:00  INFO 46792 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-27T08:16:04.349-04:00  INFO 46792 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-27T08:16:04.349-04:00  INFO 46792 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-05-27T08:16:04.378-04:00  INFO 46792 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-27T08:16:04.378-04:00  INFO 46792 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 798 ms
+2025-05-27T08:16:04.724-04:00  INFO 46792 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-05-27T08:16:04.747-04:00  INFO 46792 --- [main] c.github.issuetools.IssueWebApplication  : Started IssueWebApplication in 1.657 seconds (process running for 2.027)
+2025-05-27T08:16:12.245-04:00  INFO 46792 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-27T08:16:12.245-04:00  INFO 46792 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-27T08:16:12.246-04:00  INFO 46792 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-05-27T08:17:56.403-04:00  INFO 17300 --- [main] c.github.issuetools.IssueWebApplication  : Starting IssueWebApplication using Java 24 with PID 17300 (C:\Users\msjac\GitHub\bulk-github-issue-creator\target\bulk-github-issue-creator-2.0.0.jar started by msjac in C:\Users\msjac\GitHub\bulk-github-issue-creator)
+2025-05-27T08:17:56.405-04:00  INFO 17300 --- [main] c.github.issuetools.IssueWebApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-05-27T08:17:57.270-04:00  INFO 17300 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-27T08:17:57.286-04:00  INFO 17300 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-27T08:17:57.286-04:00  INFO 17300 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-05-27T08:17:57.329-04:00  INFO 17300 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-27T08:17:57.330-04:00  INFO 17300 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 870 ms
+2025-05-27T08:17:57.681-04:00  INFO 17300 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-05-27T08:17:57.701-04:00  INFO 17300 --- [main] c.github.issuetools.IssueWebApplication  : Started IssueWebApplication in 1.74 seconds (process running for 2.237)
+2025-05-27T08:18:08.402-04:00  INFO 17300 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-27T08:18:08.403-04:00  INFO 17300 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-27T08:18:08.405-04:00  INFO 17300 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-27T08:23:33.324-04:00  INFO 16144 --- [main] c.github.issuetools.IssueWebApplication  : Starting IssueWebApplication using Java 24 with PID 16144 (C:\Users\msjac\GitHub\bulk-github-issue-creator\target\bulk-github-issue-creator-2.0.0.jar started by msjac in C:\Users\msjac\GitHub\bulk-github-issue-creator)
+2025-05-27T08:23:33.327-04:00  INFO 16144 --- [main] c.github.issuetools.IssueWebApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-05-27T08:23:34.149-04:00  INFO 16144 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-27T08:23:34.164-04:00  INFO 16144 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-27T08:23:34.165-04:00  INFO 16144 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-05-27T08:23:34.198-04:00  INFO 16144 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-27T08:23:34.199-04:00  INFO 16144 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 821 ms
+2025-05-27T08:23:34.525-04:00  INFO 16144 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-05-27T08:23:34.544-04:00  INFO 16144 --- [main] c.github.issuetools.IssueWebApplication  : Started IssueWebApplication in 1.628 seconds (process running for 2.015)
+2025-05-27T08:23:57.466-04:00  INFO 16144 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-27T08:23:57.466-04:00  INFO 16144 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-27T08:23:57.466-04:00  INFO 16144 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-05-27T08:26:18.558-04:00  INFO 6968 --- [main] c.github.issuetools.IssueWebApplication  : Starting IssueWebApplication using Java 24 with PID 6968 (C:\Users\msjac\GitHub\bulk-github-issue-creator\target\bulk-github-issue-creator-2.0.0.jar started by msjac in C:\Users\msjac\GitHub\bulk-github-issue-creator)
+2025-05-27T08:26:18.560-04:00  INFO 6968 --- [main] c.github.issuetools.IssueWebApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-05-27T08:26:19.374-04:00  INFO 6968 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-27T08:26:19.385-04:00  INFO 6968 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-27T08:26:19.386-04:00  INFO 6968 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-05-27T08:26:19.415-04:00  INFO 6968 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-27T08:26:19.415-04:00  INFO 6968 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 802 ms
+2025-05-27T08:26:19.753-04:00  INFO 6968 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-05-27T08:26:19.774-04:00  INFO 6968 --- [main] c.github.issuetools.IssueWebApplication  : Started IssueWebApplication in 1.631 seconds (process running for 2.01)
+2025-05-27T08:26:32.552-04:00  INFO 6968 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-27T08:26:32.552-04:00  INFO 6968 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-27T08:26:32.552-04:00  INFO 6968 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-05-27T08:28:53.920-04:00  INFO 30044 --- [main] c.github.issuetools.IssueWebApplication  : Starting IssueWebApplication using Java 24 with PID 30044 (C:\Users\msjac\GitHub\bulk-github-issue-creator\target\bulk-github-issue-creator-2.0.0.jar started by msjac in C:\Users\msjac\GitHub\bulk-github-issue-creator)
+2025-05-27T08:28:53.922-04:00  INFO 30044 --- [main] c.github.issuetools.IssueWebApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-05-27T08:28:54.770-04:00  INFO 30044 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-27T08:28:54.781-04:00  INFO 30044 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-27T08:28:54.782-04:00  INFO 30044 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-05-27T08:28:54.813-04:00  INFO 30044 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-27T08:28:54.813-04:00  INFO 30044 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 835 ms
+2025-05-27T08:28:55.152-04:00  INFO 30044 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-05-27T08:28:55.174-04:00  INFO 30044 --- [main] c.github.issuetools.IssueWebApplication  : Started IssueWebApplication in 1.675 seconds (process running for 2.05)
+2025-05-27T08:29:03.018-04:00  INFO 30044 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-27T08:29:03.019-04:00  INFO 30044 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-27T08:29:03.020-04:00  INFO 30044 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-27T08:34:39.047-04:00  INFO 20776 --- [main] c.github.issuetools.IssueWebApplication  : Starting IssueWebApplication using Java 24 with PID 20776 (C:\Users\msjac\GitHub\bulk-github-issue-creator\target\bulk-github-issue-creator-2.0.0.jar started by msjac in C:\Users\msjac\GitHub\bulk-github-issue-creator)
+2025-05-27T08:34:39.049-04:00  INFO 20776 --- [main] c.github.issuetools.IssueWebApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-05-27T08:34:39.870-04:00  INFO 20776 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-27T08:34:39.883-04:00  INFO 20776 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-27T08:34:39.883-04:00  INFO 20776 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-05-27T08:34:39.914-04:00  INFO 20776 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-27T08:34:39.915-04:00  INFO 20776 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 808 ms
+2025-05-27T08:34:40.241-04:00  INFO 20776 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-05-27T08:34:40.261-04:00  INFO 20776 --- [main] c.github.issuetools.IssueWebApplication  : Started IssueWebApplication in 1.639 seconds (process running for 2.007)
+2025-05-27T08:34:52.398-04:00  INFO 20776 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-27T08:34:52.399-04:00  INFO 20776 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-27T08:34:52.400-04:00  INFO 20776 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-27T08:37:35.010-04:00  INFO 42640 --- [main] c.github.issuetools.IssueWebApplication  : Starting IssueWebApplication using Java 24 with PID 42640 (C:\Users\msjac\GitHub\bulk-github-issue-creator\target\bulk-github-issue-creator-2.0.0.jar started by msjac in C:\Users\msjac\GitHub\bulk-github-issue-creator)
+2025-05-27T08:37:35.012-04:00  INFO 42640 --- [main] c.github.issuetools.IssueWebApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-05-27T08:37:35.811-04:00  INFO 42640 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-27T08:37:35.824-04:00  INFO 42640 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-27T08:37:35.824-04:00  INFO 42640 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-05-27T08:37:35.851-04:00  INFO 42640 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-27T08:37:35.851-04:00  INFO 42640 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 787 ms
+2025-05-27T08:37:36.178-04:00  INFO 42640 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-05-27T08:37:36.198-04:00  INFO 42640 --- [main] c.github.issuetools.IssueWebApplication  : Started IssueWebApplication in 1.597 seconds (process running for 1.969)
+2025-05-27T08:37:45.085-04:00  INFO 42640 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-27T08:37:45.096-04:00  INFO 42640 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-27T08:37:45.097-04:00  INFO 42640 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-27T09:01:26.673-04:00  INFO 31480 --- [main] c.github.issuetools.IssueWebApplication  : Starting IssueWebApplication using Java 24 with PID 31480 (C:\Users\msjac\GitHub\bulk-github-issue-creator\target\bulk-github-issue-creator-2.0.0.jar started by msjac in C:\Users\msjac\GitHub\bulk-github-issue-creator)
+2025-05-27T09:01:26.675-04:00  INFO 31480 --- [main] c.github.issuetools.IssueWebApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-05-27T09:01:27.520-04:00  INFO 31480 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-27T09:01:27.540-04:00  INFO 31480 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-27T09:01:27.541-04:00  INFO 31480 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-05-27T09:01:27.576-04:00  INFO 31480 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-27T09:01:27.577-04:00  INFO 31480 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 840 ms
+2025-05-27T09:01:27.926-04:00  INFO 31480 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-05-27T09:01:27.947-04:00  INFO 31480 --- [main] c.github.issuetools.IssueWebApplication  : Started IssueWebApplication in 1.704 seconds (process running for 2.093)
+2025-05-27T09:01:28.015-04:00  INFO 31480 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-27T09:01:28.016-04:00  INFO 31480 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-27T09:01:28.017-04:00  INFO 31480 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms

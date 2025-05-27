@@ -19,7 +19,6 @@ public class BulkGitHubIssueCreator implements Callable<Integer> {
 
     @Option(names = {"-t", "--token"}, 
             description = "GitHub personal access token. If not provided, will look for GITHUB_TOKEN environment variable.",
-            interactive = true,
             defaultValue = "${env:GITHUB_TOKEN}")
     private String token;
 
@@ -42,8 +41,8 @@ public class BulkGitHubIssueCreator implements Callable<Integer> {
     private String format;
 
     public static void main(String[] args) {
-        int exitCode = new CommandLine(new BulkGitHubIssueCreator()).execute(args);
-        System.exit(exitCode);
+        // Do not call System.exit here to allow embedding in web UI
+        new CommandLine(new BulkGitHubIssueCreator()).execute(args);
     }
 
     @Override

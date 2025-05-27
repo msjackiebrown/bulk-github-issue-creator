@@ -1,11 +1,17 @@
 package com.github.issuetools;
 
+import com.fasterxml.jackson.annotation.JsonSetter;
+import com.fasterxml.jackson.annotation.Nulls;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import com.github.issuetools.util.LabelsDeserializer;
+
 /**
  * Represents a GitHub issue to be created.
  */
 public class Issue {
     private String title;
     private String body;
+    @JsonDeserialize(using = LabelsDeserializer.class)
     private String labels;
     private String assignees;
 

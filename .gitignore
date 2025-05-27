@@ -1,0 +1,38 @@
+# Java/Maven
+/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# IDEs and editors
+/.idea/
+*.iml
+*.ipr
+*.iws
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build tools
+/.gradle/
+/.mvn/
+
+# Test output
+/test-output/
+
+# Misc
+*.orig
+
+# Documentation screenshots (optional, comment out if you want to track these)
+# docs/screenshots/
